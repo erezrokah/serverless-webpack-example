@@ -3,6 +3,18 @@ provider:
   name: aws
   runtime: nodejs8.10
 
+package:
+  individually: true
+
+custom:
+  webpack:
+    webpackConfig: 'webpack.config.js'
+    includeModules: true
+    packager: 'yarn'
+
+plugins:
+  - serverless-webpack
+
 functions:
   handler1:
     handler: src/handler1.handler
