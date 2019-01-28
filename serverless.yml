@@ -1,0 +1,10 @@
+service: serverless-webpack-example
+provider:
+  name: aws
+  runtime: nodejs8.10
+
+functions:
+  handler1:
+    handler: src/handler1.handler
+  handler2:
+    handler: src/handler2.handler
