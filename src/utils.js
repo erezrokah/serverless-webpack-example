@@ -1,7 +1,7 @@
-module.exports.square = x => {
+export const square = x => {
   return x * x;
 };
 
-module.exports.cube = x => {
+export const cube = x => {
   return x * x * x;
 };
