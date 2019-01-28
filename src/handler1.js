@@ -1,10 +1,10 @@
 'use strict';
-const _ = require('lodash');
-const { square } = require('./utils');
+import { map } from 'lodash-es';
+import { square } from './utils';
 
-module.exports.handler = async event => {
+export const handler = async event => {
   const { value } = JSON.parse(event.body);
-  const result = _.map(value, square);
+  const result = map(value, square);
   return {
     statusCode: 200,
     body: JSON.stringify({
