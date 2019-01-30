@@ -11,6 +11,7 @@ module.exports = {
     // Turn off size warnings for entry points
     hints: false,
   },
+  devtool: 'nosources-source-map',
   module: {
     rules: [
       {
@@ -31,6 +32,7 @@ module.exports = {
                   },
                 ],
               ],
+              plugins: ['source-map-support'],
             },
           },
         ],
@@ -41,5 +43,6 @@ module.exports = {
     libraryTarget: 'commonjs2',
     path: path.join(__dirname, '.webpack'),
     filename: '[name].js',
+    sourceMapFilename: '[file].map',
   },
 };
