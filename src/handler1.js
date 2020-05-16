@@ -2,7 +2,7 @@
 import { map } from 'lodash-es';
 import { square } from './utils';
 
-export const handler = async event => {
+export const handler = async (event) => {
   const { value } = JSON.parse(event.body);
   const result = map(value, square);
   return {
