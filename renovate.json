@@ -12,5 +12,6 @@
   "lockFileMaintenance": {
     "enabled": true
   },
-  "semanticCommits": true
+  "semanticCommits": true,
+  "dependencyDashboard": true
 }
