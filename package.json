@@ -18,7 +18,7 @@
     "babel-loader": "^8.1.0",
     "babel-plugin-source-map-support": "^2.1.1",
     "eslint": "^7.0.0",
-    "eslint-config-prettier": "^8.0.0",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-jest": "^24.0.0",
     "jest": "^26.0.1",
     "jest-e2e-serverless": "^0.0.21",
