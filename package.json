@@ -22,7 +22,7 @@
     "eslint-plugin-jest": "^24.0.0",
     "jest": "^26.0.1",
     "jest-e2e-serverless": "^0.0.21",
-    "prettier": "^2.0.5",
+    "prettier": "^3.0.0",
     "serverless-webpack": "^5.3.2",
     "webpack": "^4.43.0"
   },
