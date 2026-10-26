@@ -5886,9 +5886,7 @@ serialize-javascript@^4.0.0:
     randombytes "^2.1.0"
 
 serverless-webpack@^5.3.2:
-  version "5.15.1"
-  resolved "https://registry.yarnpkg.com/serverless-webpack/-/serverless-webpack-5.15.1.tgz#b4d5e0b2491a61b19772dce63981720b4c5d82cd"
-  integrity sha512-hvBd/svkiR4ji56XGDlJNafQabW7MnwNLWYVsHDMM2SQ+ipWFbk17QJExWo6HqxN1uErOYMIn1a+Yb2EzMWAZQ==
+  version "5.16.2"
   dependencies:
     archiver "^7.0.1"
     bluebird "^3.7.2"
